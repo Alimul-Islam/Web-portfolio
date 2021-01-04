@@ -1,0 +1,80 @@
+
+
+body{
+    margin: 0px;
+    font-family: 'Redressed', cursive;
+}
+
+h1{
+    font-size: 50px;
+}
+ h2{
+
+    font-size: 50px;
+ }
+ p{
+     color: dimgrey;
+ }
+
+.name{
+    color: lawngreen;
+}
+.half-width{
+    width: 40%;
+    float: left;
+
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+
+     
+}
+  .banner{
+   background-image: url("images/top-banner.png");
+  background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+
+}
+.link-button{
+    text-decoration: none;
+   background-color: tomato;
+    padding:10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700px;
+}
+.dream{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+.Single-Experiance{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 70%;
+    background-color: white;
+}
+.xp{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image:linear-gradient(180 deg lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#baby-dev{
+    border-left: 7px solid;
+    border-image:linear-gradient(180 deg blue,cyan);
+    border-image-slice: 1;
+} 
+footer{
+    text-align: center;
+    font-size: 20px;
+}
+
